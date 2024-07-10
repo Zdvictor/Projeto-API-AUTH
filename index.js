@@ -5,6 +5,8 @@ var router = require("./routes/routes")
 var cors = require("cors")
 
 app.use(cors())
+
+const port = process.env.PORT || 8080
  
 // parse application/x-www-form-urlencoded
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -13,6 +15,6 @@ app.use(bodyParser.json())
 
 app.use("/",router);
 
-app.listen(8080,() => {
+app.listen(port,() => {
     console.log("Servidor rodando")
 });
