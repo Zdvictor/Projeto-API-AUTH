@@ -1,6 +1,6 @@
 # API de Cadastro e Login de usuários
 
-Esta API é para cadastro de usuários com cargo, utilizando um sistema de autenticação JWT.
+Esta API é para o cadastro de usuários com cargo, utilizando um sistema de autenticação JWT e Bcrypt.
 
 ## Endpoints
 
