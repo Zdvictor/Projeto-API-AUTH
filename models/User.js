@@ -93,7 +93,7 @@ class User {
         try {
             
             var hash = await bcrypt.hash(password, 10)
-            await knex.insert({name,email,password: hash, role:0}).table('users')
+            await knex.insert({name,email,password: hash, role:1}).table('users')
 
         }catch( err ) {
 
