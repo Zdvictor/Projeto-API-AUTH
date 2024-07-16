@@ -80,7 +80,7 @@ Caso essa resposta ocorra, seu usuário foi logado com sucesso e retornara o tok
 ##### Falha no Login! 406
 Caso essa resposta ocorra, sua senha esta incorreta.
 
-Exemplo de Resposta:
+Exemplo de Resposta sucesso:
 
 ```
 
@@ -110,7 +110,7 @@ Caso essa resposta ocorra, você receberá a listagem de todos os usuarios.
 Caso essa resposta ocorra, você inseriou token jwt invalido.
 
 
-Exemplo de Resposta:
+Exemplo de Resposta sucesso:
 
 ```
 
@@ -158,7 +158,7 @@ Caso essa resposta ocorra, a atualização ocorreu com sucesso.
 Caso essa resposta ocorra, novo email ja existe no banco de dados.
 
 
-Exemplo de Resposta:
+Exemplo de Resposta sucesso:
 
 `
 OK
@@ -179,7 +179,7 @@ Caso essa resposta ocorra, a atualização ocorreu com sucesso.
 ##### Falha! 406
 Caso essa resposta ocorra, o id informado e invalido.
 
-Exemplo de Resposta:
+Exemplo de Resposta sucesso:
 
 `
 OK
@@ -212,7 +212,7 @@ Caso essa resposta ocorra, retornara o token jwt para acessar a rota changepassw
 ##### Falha! 406
 Caso essa resposta ocorra, o email informado e invalido.
 
-Exemplo de Resposta:
+Exemplo de Resposta sucesso:
 
 `
 {
@@ -251,7 +251,7 @@ Caso essa resposta ocorra, a atualização ocorreu com sucesso.
 ##### Falha! 406
 Caso essa resposta ocorra, o token informado e invalido.
 
-Exemplo de Resposta:
+Exemplo de Resposta sucesso:
 
 `
 Senha Alterada
